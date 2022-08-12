@@ -1,55 +1,15 @@
-# Boas vindas ao repositório do projeto Trybesmith!
+# Boas vindas ao repositório do projeto Smith!
 
-Para realizar o projeto, atente-se a cada passo descrito a seguir, e se tiver qualquer dúvida, nos envie por _Slack_! #vqv 🚀
 
-Aqui você vai encontrar os detalhes de como estruturar o desenvolvimento do seu projeto a partir deste repositório, utilizando uma branch específica e um _Pull Request_ para colocar seus códigos.
-
-# Termos e acordos
-
-Ao iniciar este projeto, você concorda com as diretrizes do Código de Conduta e do Manual da Pessoa Estudante da Trybe.
-
-# Entregáveis
+Aqui você vai encontrar os detalhes desse projeto.
 
 <details>
-  <summary><strong>🤷🏽‍♀️ Como entregar</strong></summary><br />
+  <summary><strong>👨‍💻 O que foi desenvolvido</strong></summary><br />
 
-  Para entregar o seu projeto você deverá criar um *Pull Request* neste repositório.
-
-  Lembre-se que você pode consultar nosso conteúdo sobre [Git & GitHub](https://app.betrybe.com/course/4d67f5b4-34a6-489f-a205-b6c7dc50fc16/) e nosso [Blog - Git & GitHub](https://blog.betrybe.com/tecnologia/git-e-github/) sempre que precisar!
-</details>
-
-<details>
-  <summary><strong>👨‍💻 O que deverá ser desenvolvido</strong></summary><br />
-
-  Para este projeto, você vai criar uma loja de itens medievais, no formato de uma _API_, utilizando _Typescript_.
+  Para este projeto, foi criado uma loja de itens medievais, no formato de uma _API_, utilizando _Typescript_.
   
-  Você irá desenvolver todas as camadas da aplicação (_Models_, _Service_ e _Controllers_) em seu código e, por meio dessa aplicação, será possível realizar as operações básicas que se pode fazer em um determinado banco de dados:
+  Foi desenvolvido todas as camadas da aplicação (_Models_, _Service_ e _Controllers_) e por meio dessa aplicação, será possível realizar as operações básicas que se pode fazer em um determinado banco de dados:
   Criação, Leitura, Atualização e Exclusão (ou `CRUD`, para as pessoas mais íntimas 😜 - _Create, Read, Update_ e _Delete_).
-
-  Você irá criar alguns _endpoints_ que irão ler e escrever em um banco de dados, utilizando o **MySQL**.
-
-  ---
-
-  O código para cadastro de pessoas usuárias deve ser criado por você utilizando os conhecimentos adquiridos nesse bloco.
-
-  ⚠️ **Dicas Importantes** ⚠️:
-
-  - Não haverá front-end neste projeto, portanto não se preocupe com a visualização, apenas com as funcionalidades e organização do código;
-
-  - Sua API deve ser desenvolvida dentro da pasta `./src`.
-</details>
-
-<details>
-  <summary><strong>🗓 Data de Entrega</strong></summary><br />
-  
-  * Este projeto é individual
-  * São `2` dias de projeto
-  * Data para entrega final do projeto: `08/08/2022 14:00`
-
-</details>
-
-# Orientações
-
 
 <details>
   <summary><strong>🐳 Rodando no Docker vs Localmente</strong></summary><br />
@@ -118,172 +78,17 @@ Ao iniciar este projeto, você concorda com as diretrizes do Código de Conduta 
 
   1. Clone o repositório
 
-  - `git clone https://github.com/tryber/sd-019-b-project-trybesmith.git`.
+  - `git clone git@github.com:JuniorMira0/SmithTypeScript.git`.
   - Entre na pasta do repositório que você acabou de clonar:
-    - `cd sd-019-b-project-trybesmith`
+    -
 
-  2. Instale as dependências [**Caso existam**]
+  2. Instale as dependências
 
   - `npm install`
 
-  3. Crie uma branch a partir da branch `main`
-
-  - Verifique se você está na branch `main`
-    - Exemplo: `git branch`
-  - Se você não estiver, mude para a branch `main`
-    - Exemplo: `git checkout main`
-  - Agora crie uma branch à qual você vai submeter os `commits` do seu projeto
-    - Você deve criar uma branch no seguinte formato: `nome-de-usuario-nome-do-projeto`
-    - Exemplo: `git checkout -b joaozinho-sd-019-b-project-trybesmith`
- 
-  4. Adicione as mudanças ao _stage_ do Git e faça um `commit`
-
-  - Verifique que as mudanças ainda não estão no _stage_
-    - Exemplo: `git status` (deve aparecer listada a pasta _joaozinho_ em vermelho)
-  - Adicione o novo arquivo ao _stage_ do Git
-      - Exemplo:
-        - `git add .` (adicionando todas as mudanças - _que estavam em vermelho_ - ao stage do Git)
-        - `git status` (deve aparecer listado o arquivo _joaozinho/README.md_ em verde)
-  - Faça o `commit` inicial
-      - Exemplo:
-        - `git commit -m 'iniciando o projeto x'` (fazendo o primeiro commit)
-        - `git status` (deve aparecer uma mensagem tipo _nothing to commit_ )
-
-  5. Adicione a sua branch com o novo `commit` ao repositório remoto
-
-  - Usando o exemplo anterior: `git push -u origin joaozinho-sd-019-b-project-trybesmith`
-
-  6. Crie um novo `Pull Request` _(PR)_
-
-  - Vá até a página de _Pull Requests_ do [repositório no GitHub](https://github.com/tryber/sd-019-b-project-trybesmith/pulls)
-  - Clique no botão verde _"New pull request"_
-  - Clique na caixa de seleção _"Compare"_ e escolha a sua branch **com atenção**
-  - Clique no botão verde _"Create pull request"_
-  - Adicione uma descrição para o _Pull Request_ e clique no botão verde _"Create pull request"_
-  - **Não se preocupe em preencher mais nada por enquanto!**
-  - Volte até a [página de _Pull Requests_ do repositório](https://github.com/tryber/sd-019-b-project-trybesmith/pulls) e confira que o seu _Pull Request_ está criado
-  
 </details>
 
-<details>
-  <summary><strong>⌨️ Durante o desenvolvimento</strong></summary><br />
 
-  - Faça `commits` das alterações que você fizer no código regularmente
-
-  - Lembre-se de sempre após um (ou alguns) `commits` atualizar o repositório remoto
-
-  - Os comandos que você utilizará com mais frequência são:
-    1. `git status` _(para verificar o que está em vermelho - fora do stage - e o que está em verde - no stage)_
-    2. `git add` _(para adicionar arquivos ao stage do Git)_
-    3. `git commit` _(para criar um commit com os arquivos que estão no stage do Git)_
-    4. `git push -u nome-da-branch` _(para enviar o commit para o repositório remoto na primeira vez que fizer o `push` de uma nova branch)_
-    5. `git push` _(para enviar o commit para o repositório remoto após o passo anterior)_
-
-</details>
-
-<details>
-  <summary><strong>🤝 Depois de terminar o desenvolvimento (opcional)</strong></summary><br />
-
-  Para sinalizar que o seu projeto está pronto para o _"Code Review"_ dos seus colegas, faça o seguinte:
-
-  - Vá até a página **DO SEU** _Pull Request_, adicione a label de _"code-review"_ e marque seus colegas:
-
-    - No menu à direita, clique no _link_ **"Labels"** e escolha a _label_ **code-review**;
-
-    - No menu à direita, clique no _link_ **"Assignees"** e escolha **o seu usuário**;
-
-    - No menu à direita, clique no _link_ **"Reviewers"** e digite `students`, selecione o time `tryber/students-sd-019-b`.
-
-  Caso tenha alguma dúvida, [aqui tem um video explicativo](https://vimeo.com/362189205).
-
-</details>
-
-<details>
-  <summary><strong>🕵🏿 Revisando um pull request</strong></summary><br />
-
-  Use o conteúdo sobre [Code Review](https://app.betrybe.com/course/real-life-engineer/code-review/) para te ajudar a revisar os _Pull Requests_.
-
-</details>
-
-<details>
-  <summary><strong>🍪 Informações sobre a API </strong></summary><br />
-  
-  **⚠️ Leia as informações abaixo atentamente e siga à risca o que for pedido. ⚠️**
-
-  **👀 Observações importantes:**
-
-  - O não cumprimento de um requisito, total ou parcialmente, impactará em sua avaliação;
-
-  - O projeto deve rodar na porta **3000**;
-
-  - O arquivo `index.ts` existe para rodar corretamente os testes. Toda a chamada de rotas do projeto deverá ser feita dentro do arquivo `app.ts`; 
-
-
-  ---
-
-  ###  Todos os seus endpoints devem estar no padrão REST
-
-  - Use os verbos `HTTP` adequados para cada operação;
-
-  - Agrupe e padronize suas _URL_ em cada recurso;
-
-  - Garanta que seus _endpoints_ sempre retornem uma resposta, havendo sucesso nas operações ou não;
-
-  - Retorne os códigos de _status_ corretos (recurso criado, erro de validação, etc).
-
-  ---
-
-  Há dois arquivos no diretório `./src/`: `index.ts` e `app.ts`, **ambos não devem ser renomeados ou apagados**. 
-
-  Você poderá fazer modificações em ambos os arquivos, porém **no arquivo `app.ts` o seguinte trecho de código não deve ser removido**:
-
-  ```typescript
-  import express from 'express';
-
-  const app = express();
-
-  app.use(express.json());
-
-  export default app;
-  ```
-
-  Isso está configurado para o avaliador funcionar corretamente.
-
-</details>
-
-<details>
-  <summary><strong>🏦 Conexão com o Banco</strong></summary><br />
-  
-  A conexão do banco local deverá conter os seguintes parâmetros:
-
-  ```typescript
-  import dotenv from 'dotenv';
-  import mysql from 'mysql2/promise';
-
-  dotenv.config();
-
-  const connection = mysql.createPool({
-    host: process.env.MYSQL_HOST,
-    user: process.env.MYSQL_USER,
-    password: process.env.MYSQL_PASSWORD,
-  }); // sua conexão NÃO deve ter o database, este deve ser especificado em cada query
-
-  export default connection;
-  ```
-
-  **⚠️ É essencial configurar essas 3 variáveis de ambiente para testar o projeto localmente: ⚠️**
-
-  ```
-    host: process.env.MYSQL_HOST
-    user: process.env.MYSQL_USER
-    password: process.env.MYSQL_PASSWORD
-  ```
-
-  **⚠️ Variáveis de ambiente além das especificadas acima não são suportadas, pois não são esperadas pelo avaliador do projeto. ⚠️**
-
-  **⚠️ É essencial que seu arquivo tenha o nome `connection.ts` e esteja no diretório `src/models` ⚠️**
-
-</details>
 
 <details>
   <summary><strong>🪑 Tabelas</strong></summary><br />
@@ -327,76 +132,8 @@ Ao iniciar este projeto, você concorda com as diretrizes do Código de Conduta 
 </details>
 
 
-### Suas queries
 
 
-
-<details>
-  <summary><strong>🎛 Linter</strong></summary><br />
-
-  Usaremos o [ESLint](https://eslint.org/) para fazer a análise estática do seu código.
-
-  Este projeto já vem com as dependências relacionadas ao _linter_ configuradas nos arquivos `package.json`.
-
-  Para poder rodar o `ESLint` em um projeto basta executar o comando `npm install` dentro do projeto e depois `npm run lint`. Se a análise do `ESLint` encontrar problemas no seu código, tais problemas serão mostrados no seu terminal. Se não houver problema no seu código, nada será impresso no seu terminal.
-
-  Você pode também instalar o plugin do `ESLint` no `VSCode`. Para isso, basta fazer o download do [plugin `ESLint`](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint) e instalá-lo.
-
-  ⚠️ Pull requests com issues de linter não serão avaliadas. Atente-se para resolvê-las antes de finalizar o desenvolvimento! ⚠️
-
-</details>
-
-<details>
-  <summary><strong>🛠 Testes</strong></summary><br />
-
-  Todos os requisitos do projeto serão testados **automaticamente**. Cada `endpoint` possui vários requisitos e os testes para cada requisito de um `endpoint` estão no arquivo de teste.
-
-  Para executar os testes localmente, digite no terminal o comando `npm test`, ou para executar apenas um teste você pode usar `npm test 01`.
-
-  ### Dica: desativando testes
-
-  Especialmente no início, quando a maioria dos testes está falhando, a saída após executar os testes é bastante poluída. Você pode desabilitar temporariamente um teste utilizando a função `skip` junto à função `it`. Como o nome indica, essa função "pula" um teste:
-
-  ```typescript
-    it.skip('Será validado que o campo "username" é obrigatório', async () => {
-      const result = await request(app).post("/users").send({
-        level: 2,
-        classe: "classe",
-        password: "senha",
-      });
-      expect(result.statusCode).toEqual(400);
-      expect(result.body.message).toEqual("Username is required");
-    });
-  ```
-
-  Uma estratégia é pular todos os testes no início e ir implementando um teste de cada vez, removendo dele a função `skip`.
-
-  ![Testando um arquivo específico](./public/skip-tests.jpeg)
-
-  ⚠️ Lembre-se de não entregar o projeto com nenhum teste ignorado. **Testes ignorados serão tratados como testes falhando**. ⚠️
-
-  ⚠️ **Não apague, em hipótese alguma, qualquer teste ou arquivo deste repositório**. ⚠️
-
-</details>
-
-<details>
-  <summary><strong>🗣 Nos dê feedbacks sobre o projeto!</strong></summary><br />
-
-Ao finalizar e submeter o projeto, não se esqueça de avaliar sua experiência preenchendo o formulário. 
-**Leva menos de 3 minutos!**
-
-[FORMULÁRIO DE AVALIAÇÃO DE PROJETO](https://be-trybe.typeform.com/to/ZTeR4IbH)
-
-⚠️ **O avaliador automático não necessariamente avalia seu projeto na ordem em que os requisitos aparecem no readme. Isso acontece para deixar o processo de avaliação mais rápido. Então, não se assuste se isso acontecer, ok?**
-
-</details>
-
-<details>
-  <summary><strong>🗂 Compartilhe seu portfólio!</strong></summary><br />
-
-  Você sabia que o LinkedIn é a principal rede social profissional e compartilhar o seu aprendizado lá é muito importante para quem deseja construir uma carreira de sucesso? Compartilhe esse projeto no seu LinkedIn, marque o perfil da Trybe (@trybe) e mostre para a sua rede toda a sua evolução.
-
-</details>
 
 # Requisitos
 
