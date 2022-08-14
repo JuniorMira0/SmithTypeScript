@@ -134,3 +134,6 @@ To run the aplication write the command:
 ```bash
 npm start
 ```
+
+
+** Projeto desenvolvido para fins de estudos durante minha formação na Trybe.
